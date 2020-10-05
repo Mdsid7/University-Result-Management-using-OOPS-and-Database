@@ -199,10 +199,10 @@ class Student:
                 database.dbms_view()
             elif(a==2):
                 while True:
-                    a=input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n")
+                    a=int(input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n"))
                     if(a==1):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DBMS_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DBMS_Marks \n 9-back \n 0-exit \n"))        
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -229,7 +229,7 @@ class Student:
                                 exit(0)
                     elif(a==2):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DBMS_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DBMS_Marks \n 9-back \n 0-exit \n"))      
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Name of student you want to update: \n")
@@ -256,7 +256,7 @@ class Student:
                                 exit(0)
                     elif(a==3):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DBMS_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DBMS_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -302,10 +302,10 @@ class Student:
                 database.ada_view()
             elif(ch==2):
                 while True:
-                    a=input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n")
+                    a=int(input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n"))
                     if(a==1):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-ADA_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-ADA_Marks \n 9-back \n 0-exit \n"))          
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -332,7 +332,7 @@ class Student:
                                 exit(0)
                     elif(a==2):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-ADA_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-ADA_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -359,7 +359,7 @@ class Student:
                                 exit(0)
                     elif(a==3):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-ADA_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-ADA_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -575,10 +575,10 @@ class Student:
                 database.oop_view()
             elif(a==2):
                 while True:
-                    a=input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n")
+                    a=int(input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n"))
                     if(a==1):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OOP_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OOP_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -605,7 +605,7 @@ class Student:
                                 exit(0)
                     elif(a==2):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OOP_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OOP_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -632,7 +632,7 @@ class Student:
                                 exit(0)
                     elif(a==3):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OOP_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OOP_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -681,7 +681,7 @@ class Student:
                     a=int(input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n"))
                     if(a==1):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DSA_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DSA_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -708,7 +708,7 @@ class Student:
                                 exit(0)
                     elif(a==2):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DSA_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DSA_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -735,7 +735,7 @@ class Student:
                                 exit(0)
                     elif(a==3):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DSA_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-DSA_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -950,10 +950,10 @@ class Student:
                 database.os_view()
             elif(a==2):
                while True:
-                    a=input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n")
+                    a=int(input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n"))
                     if(a==1):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OS_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OS_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -980,7 +980,7 @@ class Student:
                                 exit(0)
                     elif(a==2):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OS_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OS_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -1007,7 +1007,7 @@ class Student:
                                 exit(0)
                     elif(a==3):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OS_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-OS_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -1052,10 +1052,10 @@ class Student:
                 database.se_view()
             elif(ch==2):
                 while True:
-                    a=input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n")
+                    a=int(input("Enter the section of student you want to update\n 1-CSE A \n 2-CSE B \n 3-CSE C \n 9-back \n 0-exit\n"))
                     if(a==1):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-SE_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-SE_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -1082,7 +1082,7 @@ class Student:
                                 exit(0)
                     elif(a==2):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-SE_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-SE_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
@@ -1109,7 +1109,7 @@ class Student:
                                 exit(0)
                     elif(a==3):
                         while True:
-                            ch=input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-SE_Marks \n 9-back \n 0-exit \n")           
+                            ch=int(input("Enter the column you want to update \n 1-Name \n 2-Class \n 3-Section \n 4-SE_Marks \n 9-back \n 0-exit \n"))           
                             if(ch==1):
                                 self.USN=input("enter the usn of student for which you want to update:\n")
                                 self.Name=input("Enter the Updated Name of student: \n")
