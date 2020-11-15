@@ -1,7 +1,7 @@
 import database
 import math
 class Student:
-    def __init__(self):
+    def _init_(self):
         self.Name= ""
         self.USN=""
         self.Class=""
@@ -15,13 +15,13 @@ class Student:
         self.Average=0 
         self.Grade=0
         self.SGPA=0
-    
+
     def students(self):
         self.USN=(input("Enter your USN:"))
         USN2=self.USN
         USN3=self.USN
         database.results(self.USN,USN2,USN3)
-    
+class teacher1(Student):
     def Teacher1(self):
         a = input("Enter your Password:\n")
         if(a!=123):
@@ -397,7 +397,7 @@ class Student:
                 break
             elif(ch==0):
                 exit(0)
-
+class teacher2(teacher1):
     def Teacher2(self):
         a = input("Enter your Password:\n")
         if(a!=456):
@@ -566,8 +566,7 @@ class Student:
             elif(ch==0):
                 exit(0)
             else:
-                print("Error,Enter correct option")  
-    
+                print("Error,Enter correct option")
     def Oop(self):
         while True:
             a=int(input("\n 1-View\n 2-Update \n 3-Display Average \n 4-Display Topper \n 9-back \n 0-exit \n"))
@@ -773,7 +772,7 @@ class Student:
                 break
             elif(ch==0):
                 exit(0)
-
+class teacher3(teacher2):
     def Teacher3(self):
         a = input("Enter your Password:\n")
         if(a!=789):
@@ -1149,6 +1148,9 @@ class Student:
             
 def main():
     s=Student()
+    s=teacher1()
+    s=teacher2()
+    s=teacher3()
     while True:
         ch=int(input("Enter\n 1-Student:\n 2-faculty:\n 0-exit\n"))
         if (ch==1):
